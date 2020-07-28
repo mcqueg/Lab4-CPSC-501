@@ -29,8 +29,8 @@ public class Account {
 
 	// constructor to create new account objects as well as increment
 	// numAccounts to keep track of total account count.
-	public Account(String acct) {
-		accountNum = acct;
+	public Account(String accountNum) {
+		this.accountNum = accountNum;
 		numAccounts++;
 
 	}
