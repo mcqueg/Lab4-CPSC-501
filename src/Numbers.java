@@ -32,8 +32,9 @@ public class Numbers {
 			for (int x = 0; x < n; x++) {
 				
 				// assigns next to the next greatest value in the array
-				// for position array[i]. If there is no greater value 
-				// next will be MAX_VALUE. 
+				// for position array[i]. Updates next if a value is smaller
+				// than the current next value but still larger than array[i].
+				// If there is no greater value in the array next will be MAX_VALUE. 
 				if (array[x] > array[i] && array[x] < next) {
 					next = array[x];
 
