@@ -40,6 +40,8 @@ public class Box {
 			}
 			System.out.println("");
 		}
+		System.out.println();
+		
 	}
 
 	// operates the same as the printBox method above, but
