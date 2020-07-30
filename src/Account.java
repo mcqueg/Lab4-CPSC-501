@@ -36,7 +36,7 @@ public class Account {
 	}
 
 	// method to return the total number of accounts
-	public static int getNumAccounts() {
+	private static int getNumAccounts() {
 
 		return numAccounts;
 	}
